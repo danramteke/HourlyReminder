@@ -19,7 +19,25 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    var manager: ChimeManager? {
+        didSet{
+            println("manager set in viewcontroller")
+        }
+    }
+    
+    func localNotificationArrived(notification:UILocalNotification) {
+        
+    }
 
+    @IBAction func switched(sender : UISwitch) {
+        if sender.on {
+            manager?.scheduleChimes()
+        } else {
+            manager?.cancelChimes()
+        }
+        
+    }
 
 }
 

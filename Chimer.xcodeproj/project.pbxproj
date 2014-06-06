@@ -12,6 +12,32 @@
 		65D4AD7E19425B7F0026B2A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D4AD7C19425B7F0026B2A3 /* Main.storyboard */; };
 		65D4AD8019425B7F0026B2A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D4AD7F19425B7F0026B2A3 /* Images.xcassets */; };
 		65D4AD8C19425B800026B2A3 /* ChimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4AD8B19425B800026B2A3 /* ChimerTests.swift */; };
+		65D4AD9619425CF20026B2A3 /* ChimManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4AD9519425CF20026B2A3 /* ChimManager.swift */; };
+		65D4AD9819425F9F0026B2A3 /* tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4AD9719425F9F0026B2A3 /* tap.swift */; };
+		65D4ADE4194282780026B2A3 /* 13.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADCC194282780026B2A3 /* 13.aiff */; };
+		65D4ADE5194282780026B2A3 /* 14.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADCD194282780026B2A3 /* 14.aiff */; };
+		65D4ADE6194282780026B2A3 /* 15.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADCE194282780026B2A3 /* 15.aiff */; };
+		65D4ADE7194282780026B2A3 /* 16.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADCF194282780026B2A3 /* 16.aiff */; };
+		65D4ADE8194282780026B2A3 /* 17.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD0194282780026B2A3 /* 17.aiff */; };
+		65D4ADE9194282780026B2A3 /* 18.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD1194282780026B2A3 /* 18.aiff */; };
+		65D4ADEA194282780026B2A3 /* 19.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD2194282780026B2A3 /* 19.aiff */; };
+		65D4ADEB194282780026B2A3 /* 20.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD3194282780026B2A3 /* 20.aiff */; };
+		65D4ADEC194282780026B2A3 /* 21.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD4194282780026B2A3 /* 21.aiff */; };
+		65D4ADED194282780026B2A3 /* 22.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD5194282780026B2A3 /* 22.aiff */; };
+		65D4ADEE194282780026B2A3 /* 23.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD6194282780026B2A3 /* 23.aiff */; };
+		65D4ADEF194282780026B2A3 /* 0.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD7194282780026B2A3 /* 0.aiff */; };
+		65D4ADF0194282780026B2A3 /* 1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD8194282780026B2A3 /* 1.aiff */; };
+		65D4ADF1194282780026B2A3 /* 2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADD9194282780026B2A3 /* 2.aiff */; };
+		65D4ADF2194282780026B2A3 /* 3.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADDA194282780026B2A3 /* 3.aiff */; };
+		65D4ADF3194282780026B2A3 /* 4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADDB194282780026B2A3 /* 4.aiff */; };
+		65D4ADF4194282780026B2A3 /* 5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADDC194282780026B2A3 /* 5.aiff */; };
+		65D4ADF5194282780026B2A3 /* 6.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADDD194282780026B2A3 /* 6.aiff */; };
+		65D4ADF6194282780026B2A3 /* 7.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADDE194282780026B2A3 /* 7.aiff */; };
+		65D4ADF7194282780026B2A3 /* 8.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADDF194282780026B2A3 /* 8.aiff */; };
+		65D4ADF8194282780026B2A3 /* 9.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADE0194282780026B2A3 /* 9.aiff */; };
+		65D4ADF9194282780026B2A3 /* 10.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADE1194282780026B2A3 /* 10.aiff */; };
+		65D4ADFA194282780026B2A3 /* 11.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADE2194282780026B2A3 /* 11.aiff */; };
+		65D4ADFB194282780026B2A3 /* 12.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADE3194282780026B2A3 /* 12.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,32 @@
 		65D4AD8519425B800026B2A3 /* ChimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4AD8A19425B800026B2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D4AD8B19425B800026B2A3 /* ChimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChimerTests.swift; sourceTree = "<group>"; };
+		65D4AD9519425CF20026B2A3 /* ChimManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChimManager.swift; sourceTree = "<group>"; };
+		65D4AD9719425F9F0026B2A3 /* tap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tap.swift; sourceTree = "<group>"; };
+		65D4ADCC194282780026B2A3 /* 13.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 13.aiff; sourceTree = "<group>"; };
+		65D4ADCD194282780026B2A3 /* 14.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 14.aiff; sourceTree = "<group>"; };
+		65D4ADCE194282780026B2A3 /* 15.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 15.aiff; sourceTree = "<group>"; };
+		65D4ADCF194282780026B2A3 /* 16.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 16.aiff; sourceTree = "<group>"; };
+		65D4ADD0194282780026B2A3 /* 17.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 17.aiff; sourceTree = "<group>"; };
+		65D4ADD1194282780026B2A3 /* 18.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 18.aiff; sourceTree = "<group>"; };
+		65D4ADD2194282780026B2A3 /* 19.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 19.aiff; sourceTree = "<group>"; };
+		65D4ADD3194282780026B2A3 /* 20.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 20.aiff; sourceTree = "<group>"; };
+		65D4ADD4194282780026B2A3 /* 21.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 21.aiff; sourceTree = "<group>"; };
+		65D4ADD5194282780026B2A3 /* 22.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 22.aiff; sourceTree = "<group>"; };
+		65D4ADD6194282780026B2A3 /* 23.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 23.aiff; sourceTree = "<group>"; };
+		65D4ADD7194282780026B2A3 /* 0.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 0.aiff; sourceTree = "<group>"; };
+		65D4ADD8194282780026B2A3 /* 1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 1.aiff; sourceTree = "<group>"; };
+		65D4ADD9194282780026B2A3 /* 2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 2.aiff; sourceTree = "<group>"; };
+		65D4ADDA194282780026B2A3 /* 3.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 3.aiff; sourceTree = "<group>"; };
+		65D4ADDB194282780026B2A3 /* 4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 4.aiff; sourceTree = "<group>"; };
+		65D4ADDC194282780026B2A3 /* 5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 5.aiff; sourceTree = "<group>"; };
+		65D4ADDD194282780026B2A3 /* 6.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 6.aiff; sourceTree = "<group>"; };
+		65D4ADDE194282780026B2A3 /* 7.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 7.aiff; sourceTree = "<group>"; };
+		65D4ADDF194282780026B2A3 /* 8.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 8.aiff; sourceTree = "<group>"; };
+		65D4ADE0194282780026B2A3 /* 9.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 9.aiff; sourceTree = "<group>"; };
+		65D4ADE1194282780026B2A3 /* 10.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 10.aiff; sourceTree = "<group>"; };
+		65D4ADE2194282780026B2A3 /* 11.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 11.aiff; sourceTree = "<group>"; };
+		65D4ADE3194282780026B2A3 /* 12.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 12.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +127,14 @@
 		65D4AD7519425B7F0026B2A3 /* Chimer */ = {
 			isa = PBXGroup;
 			children = (
+				65D4AD9B19426FE30026B2A3 /* Sounds */,
 				65D4AD7819425B7F0026B2A3 /* AppDelegate.swift */,
 				65D4AD7A19425B7F0026B2A3 /* ViewController.swift */,
 				65D4AD7C19425B7F0026B2A3 /* Main.storyboard */,
 				65D4AD7F19425B7F0026B2A3 /* Images.xcassets */,
 				65D4AD7619425B7F0026B2A3 /* Supporting Files */,
+				65D4AD9519425CF20026B2A3 /* ChimManager.swift */,
+				65D4AD9719425F9F0026B2A3 /* tap.swift */,
 			);
 			path = Chimer;
 			sourceTree = "<group>";
@@ -107,6 +162,37 @@
 				65D4AD8A19425B800026B2A3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65D4AD9B19426FE30026B2A3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				65D4ADCC194282780026B2A3 /* 13.aiff */,
+				65D4ADCD194282780026B2A3 /* 14.aiff */,
+				65D4ADCE194282780026B2A3 /* 15.aiff */,
+				65D4ADCF194282780026B2A3 /* 16.aiff */,
+				65D4ADD0194282780026B2A3 /* 17.aiff */,
+				65D4ADD1194282780026B2A3 /* 18.aiff */,
+				65D4ADD2194282780026B2A3 /* 19.aiff */,
+				65D4ADD3194282780026B2A3 /* 20.aiff */,
+				65D4ADD4194282780026B2A3 /* 21.aiff */,
+				65D4ADD5194282780026B2A3 /* 22.aiff */,
+				65D4ADD6194282780026B2A3 /* 23.aiff */,
+				65D4ADD7194282780026B2A3 /* 0.aiff */,
+				65D4ADD8194282780026B2A3 /* 1.aiff */,
+				65D4ADD9194282780026B2A3 /* 2.aiff */,
+				65D4ADDA194282780026B2A3 /* 3.aiff */,
+				65D4ADDB194282780026B2A3 /* 4.aiff */,
+				65D4ADDC194282780026B2A3 /* 5.aiff */,
+				65D4ADDD194282780026B2A3 /* 6.aiff */,
+				65D4ADDE194282780026B2A3 /* 7.aiff */,
+				65D4ADDF194282780026B2A3 /* 8.aiff */,
+				65D4ADE0194282780026B2A3 /* 9.aiff */,
+				65D4ADE1194282780026B2A3 /* 10.aiff */,
+				65D4ADE2194282780026B2A3 /* 11.aiff */,
+				65D4ADE3194282780026B2A3 /* 12.aiff */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +275,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D4ADF5194282780026B2A3 /* 6.aiff in Resources */,
+				65D4ADE7194282780026B2A3 /* 16.aiff in Resources */,
+				65D4ADEE194282780026B2A3 /* 23.aiff in Resources */,
+				65D4ADEB194282780026B2A3 /* 20.aiff in Resources */,
+				65D4ADE6194282780026B2A3 /* 15.aiff in Resources */,
+				65D4ADED194282780026B2A3 /* 22.aiff in Resources */,
+				65D4ADFB194282780026B2A3 /* 12.aiff in Resources */,
+				65D4ADEC194282780026B2A3 /* 21.aiff in Resources */,
+				65D4ADEF194282780026B2A3 /* 0.aiff in Resources */,
+				65D4ADFA194282780026B2A3 /* 11.aiff in Resources */,
+				65D4ADE5194282780026B2A3 /* 14.aiff in Resources */,
+				65D4ADEA194282780026B2A3 /* 19.aiff in Resources */,
+				65D4ADF2194282780026B2A3 /* 3.aiff in Resources */,
+				65D4ADE4194282780026B2A3 /* 13.aiff in Resources */,
+				65D4ADF9194282780026B2A3 /* 10.aiff in Resources */,
+				65D4ADF0194282780026B2A3 /* 1.aiff in Resources */,
+				65D4ADF6194282780026B2A3 /* 7.aiff in Resources */,
+				65D4ADE9194282780026B2A3 /* 18.aiff in Resources */,
+				65D4ADF1194282780026B2A3 /* 2.aiff in Resources */,
+				65D4ADF4194282780026B2A3 /* 5.aiff in Resources */,
 				65D4AD7E19425B7F0026B2A3 /* Main.storyboard in Resources */,
+				65D4ADF8194282780026B2A3 /* 9.aiff in Resources */,
+				65D4ADF7194282780026B2A3 /* 8.aiff in Resources */,
 				65D4AD8019425B7F0026B2A3 /* Images.xcassets in Resources */,
+				65D4ADF3194282780026B2A3 /* 4.aiff in Resources */,
+				65D4ADE8194282780026B2A3 /* 17.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D4AD9619425CF20026B2A3 /* ChimManager.swift in Sources */,
+				65D4AD9819425F9F0026B2A3 /* tap.swift in Sources */,
 				65D4AD7B19425B7F0026B2A3 /* ViewController.swift in Sources */,
 				65D4AD7919425B7F0026B2A3 /* AppDelegate.swift in Sources */,
 			);
