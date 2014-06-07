@@ -38,6 +38,7 @@
 		65D4ADF9194282780026B2A3 /* 10.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADE1194282780026B2A3 /* 10.aiff */; };
 		65D4ADFA194282780026B2A3 /* 11.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADE2194282780026B2A3 /* 11.aiff */; };
 		65D4ADFB194282780026B2A3 /* 12.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ADE3194282780026B2A3 /* 12.aiff */; };
+		65D4ADFD194284BE0026B2A3 /* NotificationsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4ADFC194284BE0026B2A3 /* NotificationsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		65D4ADE1194282780026B2A3 /* 10.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 10.aiff; sourceTree = "<group>"; };
 		65D4ADE2194282780026B2A3 /* 11.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 11.aiff; sourceTree = "<group>"; };
 		65D4ADE3194282780026B2A3 /* 12.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = 12.aiff; sourceTree = "<group>"; };
+		65D4ADFC194284BE0026B2A3 /* NotificationsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				65D4AD7619425B7F0026B2A3 /* Supporting Files */,
 				65D4AD9519425CF20026B2A3 /* ChimManager.swift */,
 				65D4AD9719425F9F0026B2A3 /* tap.swift */,
+				65D4ADFC194284BE0026B2A3 /* NotificationsDetailViewController.swift */,
 			);
 			path = Chimer;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D4AD9619425CF20026B2A3 /* ChimManager.swift in Sources */,
+				65D4ADFD194284BE0026B2A3 /* NotificationsDetailViewController.swift in Sources */,
 				65D4AD9819425F9F0026B2A3 /* tap.swift in Sources */,
 				65D4AD7B19425B7F0026B2A3 /* ViewController.swift in Sources */,
 				65D4AD7919425B7F0026B2A3 /* AppDelegate.swift in Sources */,
