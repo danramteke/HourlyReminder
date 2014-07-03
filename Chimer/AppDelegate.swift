@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var manager:ChimeManager?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
-        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound, categories: nil))
+//        let ios8 = NSOperatingSystemVersion(majorVersion: 8, minorVersion: 0, patchVersion: 0)
+//        if (NSProcessInfo().isOperatingSystemAtLeastVersion(ios8)) {
+//            application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound, categories: nil))
+//        }
+        ChimerNotificationRegistrationHelper.registerForSoundLocalNotifications()
+
         
         
         manager = ChimeManager(application:application)

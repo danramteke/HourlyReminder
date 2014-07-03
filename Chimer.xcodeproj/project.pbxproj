@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65B9CFD11965E51700160CDE /* ChimerNotificationRegistrationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B9CFD01965E51700160CDE /* ChimerNotificationRegistrationHelper.m */; };
 		65D4AD7919425B7F0026B2A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4AD7819425B7F0026B2A3 /* AppDelegate.swift */; };
 		65D4AD7B19425B7F0026B2A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4AD7A19425B7F0026B2A3 /* ViewController.swift */; };
 		65D4AD7E19425B7F0026B2A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D4AD7C19425B7F0026B2A3 /* Main.storyboard */; };
@@ -52,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65B9CFCE1965E51700160CDE /* Chimer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chimer-Bridging-Header.h"; sourceTree = "<group>"; };
+		65B9CFCF1965E51700160CDE /* ChimerNotificationRegistrationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChimerNotificationRegistrationHelper.h; sourceTree = "<group>"; };
+		65B9CFD01965E51700160CDE /* ChimerNotificationRegistrationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChimerNotificationRegistrationHelper.m; sourceTree = "<group>"; };
 		65D4AD7319425B7F0026B2A3 /* Chimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4AD7719425B7F0026B2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D4AD7819425B7F0026B2A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +142,9 @@
 				65D4AD9519425CF20026B2A3 /* ChimManager.swift */,
 				65D4AD9719425F9F0026B2A3 /* tap.swift */,
 				65D4ADFC194284BE0026B2A3 /* NotificationsDetailViewController.swift */,
+				65B9CFCF1965E51700160CDE /* ChimerNotificationRegistrationHelper.h */,
+				65B9CFD01965E51700160CDE /* ChimerNotificationRegistrationHelper.m */,
+				65B9CFCE1965E51700160CDE /* Chimer-Bridging-Header.h */,
 			);
 			path = Chimer;
 			sourceTree = "<group>";
@@ -324,6 +331,7 @@
 				65D4AD9619425CF20026B2A3 /* ChimManager.swift in Sources */,
 				65D4ADFD194284BE0026B2A3 /* NotificationsDetailViewController.swift in Sources */,
 				65D4AD9819425F9F0026B2A3 /* tap.swift in Sources */,
+				65B9CFD11965E51700160CDE /* ChimerNotificationRegistrationHelper.m in Sources */,
 				65D4AD7B19425B7F0026B2A3 /* ViewController.swift in Sources */,
 				65D4AD7919425B7F0026B2A3 /* AppDelegate.swift in Sources */,
 			);
@@ -393,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -430,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,9 +451,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID = com.danramteke.Chimer.TF;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniel Ramteke (KXL9J9LQ5H)";
 				INFOPLIST_FILE = Chimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "998DFF84-3B22-4A2D-81DB-6FB68AFCBE20";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chimer/Chimer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -454,9 +470,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID = com.danramteke.Chimer;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniel Ramteke (KXL9J9LQ5H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Ramteke (KXL9J9LQ5H)";
 				INFOPLIST_FILE = Chimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chimer/Chimer-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -515,6 +536,7 @@
 				65D4AD9119425B800026B2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65D4AD9219425B800026B2A3 /* Build configuration list for PBXNativeTarget "ChimerTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +545,7 @@
 				65D4AD9419425B800026B2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
