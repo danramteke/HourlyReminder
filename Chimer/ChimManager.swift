@@ -34,7 +34,7 @@ class ChimeManager {
         let now = NSDate()
 
         
-        for i in 0..24 {
+        for i in 0..<24 {
             scheduleNotificationWith(dateForHour(i), filename: "\(i).aiff")
         }
     }

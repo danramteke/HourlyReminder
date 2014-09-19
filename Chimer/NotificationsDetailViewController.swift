@@ -22,14 +22,19 @@ class NotificationsDetailViewController: UIViewController, UITableViewDataSource
         var notifications:Array<UILocalNotification> = UIApplication.sharedApplication().scheduledLocalNotifications as Array<UILocalNotification>
         let texts = notifications.map {
             (var notification:UILocalNotification) -> String in
-            return notification.fireDate.description
+            if let fireDate = notification.fireDate {
+                return fireDate.description
+            } else {
+                return "not found"
+            }
+
         }
 //        println(texts)
         //let joiner:String = "\n"
         //let joinedText: String = texts.join(joiner)
         //self.textView.text = joinedText
     }
-    func tableView( tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell {
+    func tableView( tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let text = UIApplication.sharedApplication().scheduledLocalNotifications[indexPath.row].fireDate.description
         var cell : UITableViewCell = tableView.dequeueReusableCellWithIdentifier("NotificationCell") as UITableViewCell
@@ -37,8 +42,7 @@ class NotificationsDetailViewController: UIViewController, UITableViewDataSource
         return cell;
     }
     
-    func tableView(tableView: UITableView!,
-        numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return UIApplication.sharedApplication().scheduledLocalNotifications.count
     }
 }
